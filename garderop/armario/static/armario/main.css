@@ -1,0 +1,206 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #5f788a;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  /* Estilos para la sección destacada */
+#Home-destacado {
+  background-size: cover;
+  color: #000000;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#Home-destacado h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#Home-destacado p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* Estilos para la sección de características */
+#Home-caracteristicas {
+  background-color: #f2f2f2;
+  padding: 40px;
+  text-align: center;
+}
+
+#Home-caracteristicas h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#Home-caracteristicas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#Home-caracteristicas li {
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #b9b9b9;
+  color: #464646;
+  padding: 20px;
+  text-align: center;
+}
+
+#loquevieninsta{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 800px;
+  height: 430px;
+}
+
+#loquevieninsta img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+#loquevieninsta img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+#pic img{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#preText h1{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#botonmodelo button{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1ac969;
+  border: none;
+  color: #000000;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 0px #999;
+}
+
+#botonmodelo button:hover {
+  background-color: #0e6d39;
+  cursor: pointer;
+}
+
+#botonmodelo button:active {
+  background-color: #1ac969;
+  box-shadow: none;
+}
+
+#botonmodelo button:disabled {
+  background-color: #ad2626;
+  color: #999;
+  cursor: not-allowed;
+  box-shadow: none;
+}

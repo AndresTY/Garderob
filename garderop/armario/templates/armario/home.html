@@ -1,0 +1,49 @@
+{% extends "armario/base.html" %}
+{% block content %}
+<Section id="Home-destacado">
+  <h1>гардероб - Garderob</h1>
+  <p>Un armario inteligente que te ayuda a organizar y gestionar tu ropa de manera eficiente.</p>
+</Section>
+
+<section id="loquevieninsta">
+  <img  id="armario" src="armario.jpg"  />
+  <img  id="login" src="login.png"  />
+  <img  id="service" src="service.jpg"  />
+  <img  id="infra" src="infra.jpg"  />
+  <img  id="setting" src="setting.jpg" />
+</section>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+  $("#armario").click(function() {
+    window.location.href = 'http://127.0.0.1:8000/view'
+  });
+  $("#login").click(function() {
+    window.location.href = 'http://127.0.0.1:8000/login/'
+  });
+  $("#service").click(function() {
+    window.location.href = 'http://127.0.0.1:8000/working'
+  });
+  $("#infra").click(function() {
+    window.location.href = 'http://127.0.0.1:8000/working'
+  });
+  
+  $("#setting").click(function() {
+    window.location.href = 'http://127.0.0.1:8000/working'
+  });
+</script>
+
+<Section id="Home-caracteristicas">
+  <h3>Características principales</h3>
+  <ul>
+    <li>Gestión automatizada de inventario</li>
+    <li>Recomendaciones de atuendo basadas en el clima y tus preferencias</li>
+    <li>Control remoto a través de una aplicación móvil</li>
+    <li>Sistema de iluminación y espejo inteligente</li>
+    <li>Integración con asistentes virtuales</li>
+  </ul>
+</Section>
+
+<footer>
+  <p>Derechos de autor &copy; 2023 Armario Inteligente. Todos los derechos reservados.</p>
+</footer>
+{% endblock content %}
